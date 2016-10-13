@@ -1,0 +1,10 @@
+.like{
+    width: 50%;
+    height: 175px;
+    float: left;
+    margin-bottom: 20px;
+}
+.like view{
+      width: 100%;
+    text-align: center;
+}

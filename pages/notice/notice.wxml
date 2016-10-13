@@ -1,0 +1,12 @@
+<view class="like" wx:for="{{sigle}}">
+    <view>
+        <image src="{{item.image}}" style="height:147px;width:148px;"/>
+    </view>   
+      <view>
+        <text style="text-align: center;">{{item.text}}</text>
+        </view>
+        <view>
+        <text style="text-align: center;">{{item.price}}</text>
+      </view>
+  
+</view>

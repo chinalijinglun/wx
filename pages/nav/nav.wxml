@@ -1,0 +1,12 @@
+ <view class="nav">
+ <view wx:for="{{navs}}">
+            <view class="nav-bar" catchtap="otherPage" data-text="{{item.text}}">
+              <view>
+                  <image src="{{item.image}}" style="height:35px;width:45px;"/>
+              </view>
+              <view style="margin-top:-5px">
+                  <text>{{item.text}}</text>
+              </view>
+            </view>
+  </view>
+ </view>

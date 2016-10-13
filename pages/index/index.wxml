@@ -1,0 +1,13 @@
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150" bindtap="otherPage"/>
+    </swiper-item>
+  </block>
+</swiper>
+<include src="../nav/nav" />
+<view class="guess">
+<text>猜你喜欢</text>
+</view>
+<include src="../notice/notice" />

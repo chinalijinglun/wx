@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/self/index",
+    "pages/nav/nav",
+    "pages/notice/notice",
+    "pages/other/other"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#41b883",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "李经纶微信小程序demo",
+    "backgroundTextStyle":"light", 
+    "backgroundColor": "#35495e"
+  },
+ "tabBar": {
+    "color": "#272636",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "image/index.png",
+      "selectedIconPath": "image/index.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/list/index",
+      "iconPath": "image/cloud.png",
+      "selectedIconPath": "image/cloud.png",
+      "text": "分类"
+    }, {
+      "pagePath": "pages/component/index",
+      "iconPath": "image/set.png",
+      "selectedIconPath": "image/set.png",
+      "text": "购物车"
+    }, {
+      "pagePath": "pages/i/index",
+      "iconPath": "image/user.png",
+      "selectedIconPath": "image/user.png",
+      "text": "我的"
+    }]
+  }
+}

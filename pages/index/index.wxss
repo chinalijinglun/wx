@@ -1,0 +1,15 @@
+@import "../nav/nav.wxss";
+@import "../notice/notice.wxss";
+.slide-image{
+    width: 100%;
+}
+.guess{
+    font-size: 18px; 
+    text-align: center;
+    margin: 10px 0;
+    width: 100%;
+    background-color: #41b883;
+    height: 35px;
+    line-height: 35px;
+    color: #ffffff;
+}

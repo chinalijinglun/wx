@@ -1,0 +1,14 @@
+.nav{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.nav-bar{
+    width: 19%;
+    float: left;
+    text-align: center;
+    margin-bottom: 5px;
+}
+text{
+     font-size: 12px;
+}
